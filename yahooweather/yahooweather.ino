@@ -1,4 +1,4 @@
-
+//Main Code
 
 
 #include <SoftwareSerial.h>
@@ -9,7 +9,7 @@
 #include "TembooAccount.h" 
 
 
-String ADDRESS_FOR_FORECAST = "Dublin"; //Enter zipcode for where you want to check the weather (or city,state)
+String ADDRESS_FOR_FORECAST = "New York,NY"; //Enter zipcode for where you want to check the weather (or city,state)
 
 int numRuns = 1;   // execution count, so that this doesn't run forever
 int maxRuns = 10;  // max number of times the Yahoo WeatherByAddress Choreo should be run
